@@ -1,4 +1,4 @@
-# SecurePass
+![logo1](https://user-images.githubusercontent.com/88873153/235291221-ed66bd22-2904-40d1-aee6-f20a93bac762.png)
 
 SecurePass Chrome Extension User Manual
 
