@@ -2,7 +2,6 @@ document.querySelector("#contact").addEventListener("submit", function(event) {
   event.preventDefault();
 
   const storedPassword = localStorage.getItem("masterPassword");
-  const email = document.querySelector("#email-input").value;
   const password = document.querySelector("#password-input").value;
 
   if (storedPassword === null) {

@@ -39,5 +39,10 @@ document.getElementById("Fill").onclick = function() {
     });
 };
 
+document.querySelector('#Fill').addEventListener('click', function() {
+    alert('autofilled complete!');
+  });
+  
+
 // The code retrieves a stored password from local storage for the current URL, decrypts it using AES encryption, and injects a script into the current active tab that fills 
 // the username and password fields with the stored values. It does so using a JSON object containing the username and password values.
