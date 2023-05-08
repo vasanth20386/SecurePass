@@ -1,4 +1,10 @@
 // code sets an onclick event listener on an element with the ID "setPassword1". When this element is clicked, it retrieves the values of two input fields with IDs "passwordToStore" and "userName", and passes these values to the function StorePassword1()
+document.getElementById("setPassword1").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    // Code to store password using AES goes here
+    alert("Password stored!");
+});
 
 	document.getElementById("setPassword1").onclick = function() {
 		var text = document.getElementById('passwordToStore');
